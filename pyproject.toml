@@ -1,0 +1,24 @@
+[project]
+name = "ucv-ate-si-lab01"
+version = "0.1.0"
+description = "Laboratorio 1 de Sistemas Inteligentes"
+authors = [
+    {name = "Fadiley Chipana",email = "fchipanaca1@ucvvirtual.edu.pe"}
+]
+readme = "README.md"
+requires-python = "^3.11"
+dependencies = [
+    "pandas (>=3.0.2,<4.0.0)",
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.0.3,<10.0.0)"
+]
